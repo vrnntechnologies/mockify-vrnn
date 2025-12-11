@@ -346,7 +346,7 @@
     <script>
         // --- 1. CONFIG & STATE ---
         
-        const apiKey = "xxxxxxx-xxxxx"; // apikey
+        // const apiKey = "xxxxxxx-xxxxx"; // apikey
         
         const state = {
             view: 'setup', // setup, interview, feedback
@@ -725,7 +725,7 @@
             try {
                 // Use gemini-2.5-flash-preview-09-2025 for the preview environment
                 const response = await fetch(
-                    `https://mockify.vrnn-tib01.workers.dev/`,
+                    "https://mockify.vrnn-tib01.workers.dev",
                     {
                         method: "POST",
                         headers: { "Content-Type": "application/json" },
